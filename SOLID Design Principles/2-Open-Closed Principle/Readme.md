@@ -7,8 +7,10 @@ Open for Extention -> Extend existing behavior </br>
 
 Closed for Modification -> Existing code remains unchanged</br>
 
-Base Class <- Closed for Modification </br>
-    ^         (avoid modifying base class)</br>
-    |</br>
-Derived <- Open for extension</br>
-           (can derive from base & override methods)</br>
+```
+Base Class <- Closed for Modification
+    ^         (avoid modifying base class)
+    |
+Derived <- Open for extension
+           (can derive from base & override methods)
+```
