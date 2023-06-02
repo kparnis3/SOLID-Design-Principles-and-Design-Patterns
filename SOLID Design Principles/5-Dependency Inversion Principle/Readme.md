@@ -7,11 +7,12 @@ b) Abstractions should not depend upon details.
 Details should depend upon abstractions
 
 Dependency Examples
-
+```
 public void printMe(){
     System.out.println("Hello!"); //We are depending on out
 }
-
+```
+```
 public void writeReport(){ //these should not be tightly coupled (we can use interface for formatter and writer)
     Report report = new Report();
     //Build the report
@@ -21,10 +22,11 @@ public void writeReport(){ //these should not be tightly coupled (we can use int
     //write out report
     ...
 }
+```
                 |
                 |
                 V
-
+```
 public void writeReport(Formatter formatter, Writer writer){ //pass difference formatter or writer such as XML, HTML etc
     Report report = new Report();
     //Build the report
@@ -33,3 +35,4 @@ public void writeReport(Formatter formatter, Writer writer){ //pass difference f
     writer.write("myreport");
 
 }
+```
