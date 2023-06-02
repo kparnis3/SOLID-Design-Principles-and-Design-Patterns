@@ -23,9 +23,7 @@ public void writeReport(){ //these should not be tightly coupled (we can use int
     ...
 }
 ```
-                |
-                |
-                V
+Above changes to:
 ```
 public void writeReport(Formatter formatter, Writer writer){ //pass difference formatter or writer such as XML, HTML etc
     Report report = new Report();
