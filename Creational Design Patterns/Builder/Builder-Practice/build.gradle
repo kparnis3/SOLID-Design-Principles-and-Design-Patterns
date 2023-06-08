@@ -1,0 +1,12 @@
+apply plugin: 'eclipse'
+
+apply plugin: 'java'
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/java', 'src/com/cpc/dp/builder','src/com/cpc/dp/builder2']
+            
+        }
+    }
+}
