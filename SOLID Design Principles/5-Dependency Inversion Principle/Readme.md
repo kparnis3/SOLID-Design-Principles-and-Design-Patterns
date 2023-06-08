@@ -1,4 +1,4 @@
-Dependency Inversion Principle
+# Dependency Inversion Principle
 
 a) High level modules should not depend upon low level modules.
 Both should depend on abstractions
@@ -6,7 +6,7 @@ Both should depend on abstractions
 b) Abstractions should not depend upon details.
 Details should depend upon abstractions
 
-Dependency Examples
+## Dependency Examples
 ```
 public void printMe(){
     System.out.println("Hello!"); //We are depending on out
