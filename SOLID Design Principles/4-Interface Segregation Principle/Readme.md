@@ -1,4 +1,4 @@
-Interface Segregation Principle
+# Interface Segregation Principle
 
 Clients should not have to depend upon interfaces that they do not use. (Interface Pollution)
 
