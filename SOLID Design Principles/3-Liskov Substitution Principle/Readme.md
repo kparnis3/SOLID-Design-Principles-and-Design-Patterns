@@ -1,4 +1,4 @@
-Liskov Substitution Principle
+# Liskov Substitution Principle
 
 We should be able to subsititute base class objects with child class objects & this should not alter behaviour/characteristics of our program
 
