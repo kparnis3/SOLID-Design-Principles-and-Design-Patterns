@@ -1,4 +1,4 @@
-Open-Closed Principle
+# Open-Closed Principle
 
 Software Entities - (Classes, Modules, Methods etc.)</br>
 Should be open for extension, but closed for modification.</br>
