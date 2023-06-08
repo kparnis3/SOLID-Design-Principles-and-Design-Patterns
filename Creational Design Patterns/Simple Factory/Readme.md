@@ -3,14 +3,13 @@
 ## What problem does simple factory solve?
 Multple types can be instantiated and the choice is based on some simle critera
 
-'''
+```
 if(key.equalsIgnoreCase("Pudding")){
       //create pudding object
 }else if(key.equalsIgnoreCase("cake")){
       //create cake object
 }
-
-'''
+```
 
 - Here we simply move the instantiation logic to a separate class and most commonly to a static method of this class.
 
