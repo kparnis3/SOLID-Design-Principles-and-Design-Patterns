@@ -10,11 +10,11 @@
 
 - We start by creating a class which will be a prototype
 
-      - The class must implement a Cloneable interface.
+     - The class must implement a Cloneable interface.
 
-      - Class should override the clone method and return a copy of itself.
+     - Class should override the clone method and return a copy of itself.
 
-      - The method should declare a 'CloneNotSupportedException' in throws clause to give subclasses a chance to decide on whether to support cloning.
+     - The method should declare a 'CloneNotSupportedException' in throws clause to give subclasses a chance to decide on whether to support cloning.
 
 - Clone method should consider the deep & shallow copy and choose whichever is applicable.
 
